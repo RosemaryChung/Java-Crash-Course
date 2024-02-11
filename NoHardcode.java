@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package stringstuff;
+package NoHardcode;
 
 import javax.swing.JOptionPane;
 
@@ -16,16 +16,14 @@ public class Stringstuff {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        String word=JOptionPane.showInputDialog("WORDDD");
+  
         
         String passw1;
         int passw2;
         char passw3;
         String passw4;
         String word2;
-        
+        word2= JOptionPane.showInputDialog("What is your word");
         
          passw1=word.substring(0,1);
                  passw1=passw1.toUpperCase();
@@ -37,7 +35,7 @@ public class Stringstuff {
                  word2=word.replaceAll("#"," " );
                  
                  System.out.println("Passwords=" + passw1 + passw2 + passw3 + 
-                         passw4 + "\n" + "Original word=" + word2);
+                         passw4 + "\n" + "Original word:" + word2);
                  
                  
                  
